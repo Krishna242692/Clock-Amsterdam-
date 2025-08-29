@@ -1,7 +1,7 @@
 /* This part centers the clock on the page */
 body {
     display: grid;
-    place-items: center; /* Corrected from 'left' to 'center' */
+    place-items: left; /* Corrected from 'left' to 'center' */
     min-height: 100vh;
     margin: 0;
     background-color: transparent;
