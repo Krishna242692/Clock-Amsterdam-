@@ -1,13 +1,11 @@
-/* This part centers the clock on the page */
+/* This part positions the clock in the top-left with some padding */
 body {
-    display: grid;
-    place-items: left; /* Corrected from 'left' to 'center' */
-    min-height: 100vh;
     margin: 0;
+    padding: 20px; /* Adds a small space from the corner */
     background-color: transparent;
 }
 
-/* This styles the clock's text */
+/* This styles the clock's text (we are using your smaller font size) */
 #digital-clock {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-size: 8vw;
